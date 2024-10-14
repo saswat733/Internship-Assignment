@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/component/chatsection.tsx","./src/component/messageinput.tsx","./src/component/messages.tsx","./src/feature/chatslice.ts","./src/utils/usechathook.tsx"],"version":"5.6.3"}
