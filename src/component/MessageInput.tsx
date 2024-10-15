@@ -7,7 +7,7 @@ const MessageInput = () => {
 
     return (
     <Box sx={{  maxWidth: '100%',display:'flex',flexDirection:'column', gap:'3px',margin:'4px',color:'white'}}>
-        <TextField variant="outlined" value={text} onInput={(e:any)=>setText(e.target.value)} fullWidth placeholder="Type your message.." id="fullWidth" />
+        <TextField variant="outlined" sx={{border:'1px solid white',borderRadius:'5px'}} value={text} onInput={(e:any)=>setText(e.target.value)} fullWidth placeholder="Type your message.." id="fullWidth" inputProps={{style:{color:'white'}}} />
         <Button variant="contained" endIcon={<SendIcon/>} onClick={handleSend} color="primary" fullWidth>
             Send
         </Button>
